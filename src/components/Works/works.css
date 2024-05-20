@@ -1,0 +1,70 @@
+#works{
+    min-height: calc(100vh-2rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+.work{
+    min-height: calc(100vh-2rem);
+    width: 100vw;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+
+.worksTitle{
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.worksBars{
+    margin: 1.5rem;
+    width: 100vw;
+    flex-direction: row;
+    height: max-content;
+    max-width: 80%;
+    text-align: left;
+}
+.worksBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+    margin-left: 2rem;
+}
+.worksBarText>p{
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+@media  screen and (max-width:720px) {
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+    
+}
+@media  screen and (max-width:480px) {
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+    .skillBarText>h2{
+        font-size: 5vw;
+    }
+    
+}
